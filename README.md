@@ -9,7 +9,7 @@ HTML5
 Tailwind CSS
 Project Structure
 markdown
-Kopiera kod
+
 .
 ├── index.html
 └── css
@@ -21,21 +21,26 @@ Clone or download this project.
 Make sure you have Tailwind CSS set up. If you don’t have it yet, install it by following these steps:
 Run:
 bash
-Kopiera kod
+
 npm install tailwindcss
 Create a tailwind.config.js file:
 bash
-Kopiera kod
+
 npx tailwindcss init
 Add Tailwind to your CSS:
 css
-Kopiera kod
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 Open index.html in your browser to view the result.
+
 What I Learned
+
 How to structure HTML with Tailwind CSS utility classes.
+
 Using responsive classes and centering content with grid utilities.
+
 Applying background colors, shadows, and border-radius utilities in Tailwind.
+
 This project was a great learning experience to get familiar with Tailwind's approach to styling.
